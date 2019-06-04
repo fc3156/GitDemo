@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LearnVSC"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="E:/LearnVSC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program Files/mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/LearnVSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="D:/Program Files/mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/LearnVSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/LearnVSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/LearnVSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LearnVSC">
+				<Option output="E:/LearnVSC/cmake-build-debug/LearnVSC.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/LearnVSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 LearnVSC"/>
+					<CompileFile command="D:/Program Files/mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/LearnVSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/LearnVSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/LearnVSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LearnVSC/fast">
+				<Option output="E:/LearnVSC/cmake-build-debug/LearnVSC.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="D:/Program Files/mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="D:/Program Files/mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="D:/Program Files/mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="D:/Program Files/mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
+					<Add directory="D:/Program Files/mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="D:/Program Files/mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="D:/Program Files/mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/LearnVSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 LearnVSC/fast"/>
+					<CompileFile command="D:/Program Files/mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/LearnVSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/LearnVSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/LearnVSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="E:/LearnVSC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program Files/mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/LearnVSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="D:/Program Files/mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/LearnVSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/LearnVSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/LearnVSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="E:/LearnVSC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="D:/Program Files/mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/LearnVSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="D:/Program Files/mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/LearnVSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="D:/Program Files/mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/LearnVSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="D:/Program Files/mingw-w64/x86_64-8.1.0-release-posix-seh-rt_v6-rev0/mingw64/bin/mingw32-make.exe -f &quot;E:/LearnVSC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="E:/LearnVSC/Header/Cat_Classes.h">
+			<Option target="LearnVSC"/>
+		</Unit>
+		<Unit filename="E:/LearnVSC/Header/Dog_Classes.h">
+			<Option target="LearnVSC"/>
+		</Unit>
+		<Unit filename="E:/LearnVSC/Header/List_Course.h">
+			<Option target="LearnVSC"/>
+		</Unit>
+		<Unit filename="E:/LearnVSC/Header/PetClasses.h">
+			<Option target="LearnVSC"/>
+		</Unit>
+		<Unit filename="E:/LearnVSC/Header/Student.h">
+			<Option target="LearnVSC"/>
+		</Unit>
+		<Unit filename="E:/LearnVSC/Source/CustomerCheckout.cpp">
+			<Option target="LearnVSC"/>
+		</Unit>
+		<Unit filename="E:/LearnVSC/Source/Default-Delete.cpp">
+			<Option target="LearnVSC"/>
+		</Unit>
+		<Unit filename="E:/LearnVSC/Source/Map.cpp">
+			<Option target="LearnVSC"/>
+		</Unit>
+		<Unit filename="E:/LearnVSC/Source/Map_Compare.cpp">
+			<Option target="LearnVSC"/>
+		</Unit>
+		<Unit filename="E:/LearnVSC/Source/Map_DetermineFreq.cpp">
+			<Option target="LearnVSC"/>
+		</Unit>
+		<Unit filename="E:/LearnVSC/Source/Map_Erase.cpp">
+			<Option target="LearnVSC"/>
+		</Unit>
+		<Unit filename="E:/LearnVSC/Source/Map_Multimap.cpp">
+			<Option target="LearnVSC"/>
+		</Unit>
+		<Unit filename="E:/LearnVSC/Source/Map_MultimapDemo.cpp">
+			<Option target="LearnVSC"/>
+		</Unit>
+		<Unit filename="E:/LearnVSC/Source/Map_Pair.cpp">
+			<Option target="LearnVSC"/>
+		</Unit>
+		<Unit filename="E:/LearnVSC/Source/Map_Quotations.cpp">
+			<Option target="LearnVSC"/>
+		</Unit>
+		<Unit filename="E:/LearnVSC/Source/Map_Tuple.cpp">
+			<Option target="LearnVSC"/>
+		</Unit>
+		<Unit filename="E:/LearnVSC/Source/Set.cpp">
+			<Option target="LearnVSC"/>
+		</Unit>
+		<Unit filename="E:/LearnVSC/Source/Set_Demo.cpp">
+			<Option target="LearnVSC"/>
+		</Unit>
+		<Unit filename="E:/LearnVSC/Source/Set_MultiSet.cpp">
+			<Option target="LearnVSC"/>
+		</Unit>
+		<Unit filename="E:/LearnVSC/Source/Set_PetsDemo.cpp">
+			<Option target="LearnVSC"/>
+		</Unit>
+		<Unit filename="E:/LearnVSC/Source/SmartPtr.cpp">
+			<Option target="LearnVSC"/>
+		</Unit>
+		<Unit filename="E:/LearnVSC/Source/TestSort.cpp">
+			<Option target="LearnVSC"/>
+		</Unit>
+		<Unit filename="E:/LearnVSC/main.cpp">
+			<Option target="LearnVSC"/>
+		</Unit>
+		<Unit filename="E:/LearnVSC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
